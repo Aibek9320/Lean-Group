@@ -1,0 +1,27 @@
+.about {
+    .title {
+        padding-top: 40px;
+    }
+    .row {
+        padding-top: 32px;
+        display: flex;
+    }
+
+    // .col-6 {
+
+    // }
+
+    .description {
+        margin-bottom: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        /* or 133% */
+
+        display: flex;
+        align-items: center;
+
+        color: #2C2D2E;
+    }
+}
