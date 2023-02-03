@@ -1,5 +1,21 @@
 .certificates {
+    padding: 48px 0;
     .title{
        padding-top: 104px; 
+    }
+    .owl-theme .owl-nav {
+        margin-top: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+    }
+    .custom-prev{
+        position: absolute;
+        left: -25px;
+    }
+    .custom-next{
+        position: absolute;
+        right: 25px;
     }
 }
