@@ -212,7 +212,7 @@ a:hover {
   display: flex;
 }
 .about .description {
-  margin-bottom: 1rem;
+  margin-bottom: 45px;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -238,9 +238,9 @@ a:hover {
 }
 .certificates .custom-prev {
   position: absolute;
-  left: -25px;
+  left: -60px;
 }
 .certificates .custom-next {
   position: absolute;
-  right: 25px;
+  right: -60px;
 }/*# sourceMappingURL=style.css.map */
