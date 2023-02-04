@@ -1,21 +1,41 @@
+@mixin sliderBtn($bgImg){
+    font-size: 0;
+    cursor: pointer;
+    background: url($bgImg);
+    top: 50%;
+    transform: translateY(-50%);
+    width: 27px;
+    height: 50px;
+    position: absolute;
+}
+@mixin sliderNav{
+    .custom-prev {
+        left: -60px;
+        @include sliderBtn('../images/certificates/prev.png')
+    }
+
+    .custom-next {
+        right: -60px;
+       @include sliderBtn('../images/certificates/next.png')
+       
+    }
+}
 .certificates {
     padding: 48px 0;
-    .title{
-       padding-top: 104px; 
+
+    .title {
+        padding-top: 104px;
+        padding-bottom: 30px;
     }
+
     .owl-theme .owl-nav {
         margin-top: 0;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
         width: 100%;
+        @include sliderNav;
     }
-    .custom-prev{
-        position: absolute;
-        left: -60px;
-    }
-    .custom-next{
-        position: absolute;
-        right: -60px;
-    }
+
+    
 }

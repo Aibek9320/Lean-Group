@@ -29,8 +29,16 @@ a:hover {
         color: #EF7C00;
     }  
 }
+.owl-theme .owl-dots .owl-dot span{
+    background: none;
+    border: 1px solid #EF7C00;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background: #EF7C00;
+}
 
 @import './header.scss';
 @import './home';
 @import './about';
 @import './certificates';
+@import './products'
