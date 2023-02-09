@@ -1,4 +1,8 @@
 .home {
+    .container-home{
+        position: relative;
+    }
+    position: relative;
     .slide-item {
         padding: 160px 0 155px;
 
@@ -69,19 +73,27 @@
             padding: 10px 20px;
             margin-top: 5px;
             width: 102px;
-            height: 40px;
+            height: 50px;
             background: #EF7C00;
             border-radius: 4px;
             display: inline-block;
 
         }
     }
-    .owl-theme .owl-nav.disabled+.owl-dots{
+
+    .owl-theme .owl-nav.disabled+.owl-dots {
         margin-top: 0px;
         position: absolute;
         bottom: 40px;
         left: 50%;
-        
+
     }
-    
+
+    .links-home {
+        position: absolute;
+        width: 22.3px;
+        height: 113px;
+        right: -70px;
+        top: 32px;
+    }
 }

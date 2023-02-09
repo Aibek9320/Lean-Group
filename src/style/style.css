@@ -138,6 +138,12 @@ a:hover {
   color: #EF7C00;
 }
 
+.home {
+  position: relative;
+}
+.home .container-home {
+  position: relative;
+}
 .home .slide-item {
   padding: 160px 0 155px;
 }
@@ -194,7 +200,7 @@ a:hover {
   padding: 10px 20px;
   margin-top: 5px;
   width: 102px;
-  height: 40px;
+  height: 50px;
   background: #EF7C00;
   border-radius: 4px;
   display: inline-block;
@@ -204,6 +210,13 @@ a:hover {
   position: absolute;
   bottom: 40px;
   left: 50%;
+}
+.home .links-home {
+  position: absolute;
+  width: 22.3px;
+  height: 113px;
+  right: -70px;
+  top: 32px;
 }
 
 .about .title {
@@ -264,6 +277,29 @@ a:hover {
 
 .products .title {
   margin-bottom: 30px;
+}
+.products .prod-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 90px;
+}
+.products .prod-link__links {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #EF7C00;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  width: 186px;
+  height: 40px;
+  border: 1px solid #EF7C00;
+  border-radius: 4px;
 }
 .products .products-tabs__caption {
   list-style-type: none;

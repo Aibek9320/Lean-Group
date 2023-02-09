@@ -1,4 +1,4 @@
-@mixin sliderBtn($bgImg){
+@mixin sliderBtn($bgImg) {
     font-size: 0;
     cursor: pointer;
     background: url($bgImg);
@@ -8,13 +8,39 @@
     height: 50px;
     position: absolute;
 }
+
 .products {
     .title {
         margin-bottom: 30px;
     }
 
+    .prod-link {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 90px;
+
+        &__links {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+            text-align: center;
+            color: #EF7C00;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 20px;
+            width: 186px;
+            height: 40px;
+            border: 1px solid #EF7C00;
+            border-radius: 4px;
+        }
+    }
+
     .products-tabs {
-        
+
         &__caption {
             list-style-type: none;
             display: flex;
@@ -34,7 +60,8 @@
             border-radius: 61px;
             cursor: pointer;
             margin-bottom: 40px;
-            &_active{
+
+            &_active {
                 color: #FFFFFF;
                 background: #EF7C00;
                 border: none;
@@ -50,6 +77,7 @@
         }
 
     }
+
     .owl-theme .owl-nav {
         margin-top: 0;
         position: absolute;
@@ -65,7 +93,6 @@
 
     .custom-next {
         right: -60px;
-       @include sliderBtn('../images/certificates/next.png')
-       
+        @include sliderBtn('../images/certificates/next.png')
     }
 }
